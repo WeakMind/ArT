@@ -9,4 +9,4 @@ Framework Used - Pytorch
 
 Architecture - Instance segmentation approach is used to build this model. Text instances are first segmented out by linking pixels within the same instance together. Text bounding boxes are then extracted directly from the segmentation result without location regression. using this approach, it doesnt matter what the shape of the text is, it will segment and eventually bound the text . Bounding boxes of one connected component are extracted through minAreaRect in OpenCV. U-Net model architecture is used as segmentation choice.
 
-NOTE: The papers and code will be soon added.
+
